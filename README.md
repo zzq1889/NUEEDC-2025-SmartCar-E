@@ -1,2 +1,16 @@
-# NUEEDC-2025-SmartCar-E
-🏆 2025 NUEDC (National Undergraduate Electronics Design Contest) Problem E: Smart Car. Features: Vision-based laser targeting, motion control, and full preparation logs (including 2024 Problem H repo). 2025年电赛E题智能车项目：包含视觉激光打靶、运动控制源码及备赛心得。
+# 2025年电赛E题智能车：视觉激光打靶全流程方案
+
+🏆 **2025 NUEDC Problem E - Smart Car**
+
+本项目记录了 2025 年全国大学生电子设计竞赛 E 题的全过程，包含从 24 年 H 题复现到正式赛视觉方案的完整实现。
+
+## 🌟 核心亮点
+* **预判先机**：基于 7.24 物料清单中“尺寸变化”的敏锐分析，提前布局视觉模块，精准锁定“激光打靶”需求。
+* **技术栈**：底层控制 (C/C++) + 视觉识别 (Python/OpenMV) + 24年H题经验迁移。
+
+## 📂 仓库结构
+- `/Software`: 包含小车运动控制及视觉处理源码。
+- `/Docs`: 备赛心得、物料分析报告及四天三夜实战总结。
+
+---
+> 💡 如果本项目对你有帮助，欢迎点个 Star ⭐ 鼓励一下！
