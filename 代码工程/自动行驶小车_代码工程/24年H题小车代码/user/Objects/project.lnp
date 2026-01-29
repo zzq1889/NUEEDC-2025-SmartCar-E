@@ -1,0 +1,28 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\startup_mspm0g350x_uvision.o"
+".\objects\isr.o"
+".\objects\ti_msp_dl_config.o"
+".\objects\encoder.o"
+".\objects\serical.o"
+".\objects\track.o"
+".\objects\buzzer_light.o"
+".\objects\xunji.o"
+".\objects\key.o"
+".\objects\imu.o"
+".\objects\_pid.o"
+".\objects\ml_gpio.o"
+".\objects\ml_tim.o"
+".\objects\ml_uart.o"
+".\objects\ml_delay.o"
+".\objects\ml_system.o"
+".\objects\ml_pwm.o"
+".\objects\ml_oled.o"
+".\objects\ml_i2c.o"
+".\objects\ml_mpu6050.o"
+".\objects\ml_exti.o"
+".\objects\ml_motor.o"
+--strict --scatter "./mspm0g3507.sct"
+../m0_sdk/source/ti/driverlib/lib/keil/m0p/mspm0g1x0x_g3x0x/driverlib.a --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\project.map" -o .\Objects\project.axf
